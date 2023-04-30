@@ -1,49 +1,52 @@
 
+body{
+    background-color: #f2f6ff;
+}
 .top-bar{
     background-color: #60a3bc;
 }
 
 /*  navbar section */
 
-.navbar .navbar-brand{
+.nav .navbar-brand{
     display: flex;
 }
 
-.navbar .navbar-brand .logo{
+.nav .navbar-brand .logo{
     width: 120px;
     height: 70px;
 
 }
 
-.navbar .navbar-brand .logo img{
+.nav .navbar-brand .logo img{
     width: 100%;
     height: 100%;
 }
-.navbar .header-content{
+.nav .header-content{
     display: flex;
     width: 100%;
 }
 
-.navbar .nav-headers{
+.nav .nav-headers{
     margin-left: 3%;
     margin-top: auto;
     margin-bottom: auto;
 }
-.navbar .nav-headers h1{
+.nav .nav-headers h1{
     font-size: 1.8rem;
     font-weight: 600;
     color: #474747;
 }
-.navbar .nav-headers .para{
+.nav .nav-headers .para{
     font-style: italic;
 }
 
-.navbar .navbar-bar{
+.nav .navbar-bar{
     background-color: #eeefff;
     box-shadow: 2px 1px 4px -1px #474747;
     
 }
-.navbar .navbar-bar ul.nav-menu{
+.nav .navbar-bar ul.nav-menu{
     list-style-type: none;
     text-decoration: none;
     display: flex;
@@ -51,17 +54,17 @@
     
 }
 
-.navbar .navbar-bar ul.nav-menu li{
+.nav .navbar-bar ul.nav-menu li{
  border-bottom: 2px solid #eeefff;
 }
 
-.navbar .navbar-bar ul.nav-menu li.active ,
-.navbar .navbar-bar ul.nav-menu li:hover ,
-.navbar .navbar-bar ul.nav-menu li:focus {
+.nav .navbar-bar ul.nav-menu li.active ,
+.nav .navbar-bar ul.nav-menu li:hover ,
+.nav .navbar-bar ul.nav-menu li:focus {
  border-bottom: 2px solid #474747;
 }
 
-.navbar .navbar-bar ul.nav-menu li .nav-link{
+.nav .navbar-bar ul.nav-menu li .nav-link{
     padding-bottom: 10px;
     text-decoration: none;
     font-size: 1.2rem;
@@ -86,10 +89,42 @@
     width: 100%;
     display: flex;
 }
-
+/*****************section1********************** */
 .wrapper .section1{
     width: 70%;
 }
+.section1 .contents{
+    margin: 2em;
+
+}
+.section1 .top{
+    display: flex;
+}
+
+.section1 .top .search-box{
+    margin-left: auto;
+}
+.section1 .cont-body .image{
+    width: 200px;
+    height: 150px;
+}
+.section1 .cont-body .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+/***************** end section1********************** */
+
+/*****************section2********************** */
+
 .wrapper .section2{
     width: 27%;
 }
+.section2 .contents{
+    margin: 2em;
+
+}
+/***************** End section2********************** */
