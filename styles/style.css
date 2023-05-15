@@ -77,6 +77,11 @@ body{
 
 
 /*  End of navbar section */
+.banner .bg-image{
+height: 400px;
+background-image: linear-gradient(rgb(96, 163, 188,0.5), rgb(96, 163, 188,0.5)), url('../images/hostelbanner.jpeg');
+background-size: cover;
+}
 
 
 
@@ -88,6 +93,11 @@ body{
 .wrapper{
     width: 100%;
     display: flex;
+}
+/*****************section********************** */
+
+.wrapper .section{
+    width: 100%;
 }
 /*****************section1********************** */
 .wrapper .section1{
