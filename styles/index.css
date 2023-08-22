@@ -1,0 +1,86 @@
+/* primary colours */
+/* 
+blue      #98D3DF
+orange   #EC9131 
+*/
+
+
+
+
+.about,
+.services {
+    width: 100%;
+    margin-top: 4%;
+}
+
+.about .image{
+    width: 90%;
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .image img{
+    width: 100%;
+}
+.content h2{
+   font-size: 1.6rem;
+   font-weight: 700;
+   letter-spacing: 1.5px;
+}
+.content h5{
+    color: #EC9131;
+    display: flex;
+}
+
+.content .decor{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 1rem;
+    height: 3px;
+    width: 50px;
+    background-color: #98D3DF;
+
+}
+
+.content p{
+    font-size: 0.79rem;
+ }
+
+ .footer{
+    background-color: #ececec;
+    margin-top: 4%;
+}
+
+footer .proc-logo{
+    margin-top: 2rem;
+    width: 28%;
+}
+
+footer .proc{
+    margin-top: 2rem;
+    width: 25%;
+    padding-left: 2%;
+}
+footer .proc-logo img{
+    width: 100%;
+}
+
+/* Styles for tablet screens */
+@media (max-width: 1023px) and (min-width: 768px) {
+    
+
+    
+}
+  
+/* Styles for mobile screens */
+@media (max-width: 767px) {
+
+    .about .image{
+        display: none;
+    }
+}
+
+
+
+

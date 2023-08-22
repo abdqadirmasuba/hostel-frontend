@@ -1,9 +1,14 @@
 
 body{
-    background-color: #f2f6ff;
+    background-color: #fff;
 }
 .top-bar{
     background-color: #60a3bc;
+}
+
+.main-container{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 /*  navbar section */
@@ -33,15 +38,17 @@ body{
     margin-bottom: auto;
 }
 .nav .nav-headers h1{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: #474747;
 }
 .nav .nav-headers .para{
     font-style: italic;
+    font-size: 0.8rem;
 }
 
 .nav .navbar-bar{
+    width: 100%;
     background-color: #eeefff;
     box-shadow: 2px 1px 4px -1px #474747;
     
@@ -67,27 +74,19 @@ body{
 .nav .navbar-bar ul.nav-menu li .nav-link{
     padding-bottom: 10px;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #474747;
 }
 
 
+/* .carousel-section{
+    height: 2rem;
+}*/
 
-
-
-/*  End of navbar section */
-.banner .bg-image{
-height: 400px;
-background-image: linear-gradient(rgb(96, 163, 188,0.5), rgb(96, 163, 188,0.5)), url('../images/hostelbanner.jpeg');
-background-size: cover;
-}
-
-
-
-
-
-
+.carousel-section .carousel img{
+    height: 80vh;
+} 
 
 
 .wrapper{
@@ -101,10 +100,10 @@ background-size: cover;
 }
 /*****************section1********************** */
 .wrapper .section1{
-    width: 70%;
+    width: 74%;
 }
 .section1 .contents{
-    margin: 2em;
+    margin: 1em;
 
 }
 .section1 .top{
@@ -131,10 +130,10 @@ background-size: cover;
 /*****************section2********************** */
 
 .wrapper .section2{
-    width: 27%;
+    width: 25%;
 }
 .section2 .contents{
-    margin: 2em;
+    margin: 1em;
 
 }
 /***************** End section2********************** */
