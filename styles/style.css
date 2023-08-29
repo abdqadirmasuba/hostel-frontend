@@ -1,77 +1,82 @@
-
-body{
+body {
     background-color: #fff;
 }
-.top-bar{
+
+.top-bar {
     background-color: #60a3bc;
 }
 
-.main-container{
+.main-container {
     margin-left: 2%;
     margin-right: 2%;
 }
 
 /*  navbar section */
 
-.nav .navbar-brand{
+.nav .navbar-brand {
     display: flex;
 }
 
-.nav .navbar-brand .logo{
+.nav .navbar-brand .logo {
     width: 120px;
     height: 70px;
 
 }
 
-.nav .navbar-brand .logo img{
+.nav .navbar-brand .logo img {
     width: 100%;
     height: 100%;
 }
-.nav .header-content{
+
+.nav .header-content {
     display: flex;
     width: 100%;
 }
 
-.nav .nav-headers{
+.nav .nav-headers {
     margin-left: 3%;
     margin-top: auto;
     margin-bottom: auto;
 }
-.nav .nav-headers h1{
+
+.nav .nav-headers h1 {
     font-size: 1.2rem;
     font-weight: 600;
     color: #474747;
 }
-.nav .nav-headers .para{
+
+.nav .nav-headers .para {
     font-style: italic;
     font-size: 0.8rem;
 }
 
-.nav .navbar-bar{
+.nav .navbar-bar {
     width: 100%;
     background-color: #eeefff;
     box-shadow: 2px 1px 4px -1px #474747;
-    
+
 }
-.nav .navbar-bar ul.nav-menu{
+
+.nav .navbar-bar ul.nav-menu {
     list-style-type: none;
     text-decoration: none;
     display: flex;
-    
-    
+    margin-bottom: 0;
+
+
 }
 
-.nav .navbar-bar ul.nav-menu li{
- border-bottom: 2px solid #eeefff;
+.nav .navbar-bar ul.nav-menu li {
+    border-bottom: 2px solid #eeefff;
 }
 
-.nav .navbar-bar ul.nav-menu li.active ,
-.nav .navbar-bar ul.nav-menu li:hover ,
+.nav .navbar-bar ul.nav-menu li.active,
+.nav .navbar-bar ul.nav-menu li:hover,
 .nav .navbar-bar ul.nav-menu li:focus {
- border-bottom: 2px solid #474747;
+    border-bottom: 2px solid #474747;
 }
 
-.nav .navbar-bar ul.nav-menu li .nav-link{
+.nav .navbar-bar ul.nav-menu li .nav-link {
     padding-bottom: 10px;
     text-decoration: none;
     font-size: 1rem;
@@ -79,45 +84,54 @@ body{
     color: #474747;
 }
 
+/* 
+.carousel-section{
+    max-height: 80vh;
+    margin: 0 auto;
+    overflow: hidden;
+} */
 
-/* .carousel-section{
-    height: 2rem;
-}*/
-
-.carousel-section .carousel img{
-    height: 80vh;
-} 
+/* .carousel-section .carousel img{
+    height: auto;
+    display: block;
+}  */
 
 
-.wrapper{
+.wrapper {
     width: 100%;
     display: flex;
 }
+
 /*****************section********************** */
 
-.wrapper .section{
+.wrapper .section {
     width: 100%;
 }
+
 /*****************section1********************** */
-.wrapper .section1{
+.wrapper .section1 {
     width: 74%;
 }
-.section1 .contents{
+
+.section1 .contents {
     margin: 1em;
 
 }
-.section1 .top{
+
+.section1 .top {
     display: flex;
 }
 
-.section1 .top .search-box{
+.section1 .top .search-box {
     margin-left: auto;
 }
-.section1 .cont-body .image{
+
+.section1 .cont-body .image {
     width: 200px;
     height: 150px;
 }
-.section1 .cont-body .image img{
+
+.section1 .cont-body .image img {
     width: 100%;
     height: 100%;
     border-radius: 5px;
@@ -129,11 +143,70 @@ body{
 
 /*****************section2********************** */
 
-.wrapper .section2{
+.wrapper .section2 {
     width: 25%;
 }
-.section2 .contents{
+
+.section2 .contents {
     margin: 1em;
 
 }
+
 /***************** End section2********************** */
+
+.card {
+    display: inline-block;
+    padding: 4rem 1rem 7rem 1rem;
+    background-color: #98D3DF;
+    position: relative;
+}
+
+.card:after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    background-color: skyblue;
+    top: 0px;
+    right: 0px;
+    border-bottom: 20px solid #006667;
+    border-left: 20px solid #006667;
+    border-right: 20px solid #EC9131;
+    border-top: 20px solid #EC9131;
+    position: absolute;
+    filter: drop-shadow(-5px 5px 3px rgba(0, 0, 0, 0.5));
+}
+
+.card:before {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 40px solid #006667;
+    border-right: 40px solid #006667;
+    border-left: 40px solid #EC9131;
+    border-bottom: 40px solid #EC9131;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    filter: drop-shadow(7px -7px 5px rgba(0, 0, 0, 0.5));
+    margin-right: 10%;
+}
+
+.card:nth-of-type(1) {
+    margin-right: 9%;
+}
+
+.card h2 {
+    color: snow;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card p {
+    color: snow;
+    font-size: 1.1rem;
+    line-height: 140%;
+}

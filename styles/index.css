@@ -69,6 +69,10 @@ footer .proc-logo img{
 /* Styles for tablet screens */
 @media (max-width: 1023px) and (min-width: 768px) {
     
+footer .proc,
+footer .proc-logo {
+    width: 50%;
+}
 
     
 }
@@ -79,6 +83,11 @@ footer .proc-logo img{
     .about .image{
         display: none;
     }
+    footer .proc,
+    footer .proc-logo {
+    width: 50%;
+}
+
 }
 
 
