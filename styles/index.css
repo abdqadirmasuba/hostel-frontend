@@ -47,7 +47,39 @@ orange   #EC9131
     font-size: 0.79rem;
  }
 
- .footer{
+ /* **************** articles****************************** */
+ .articles .banner .bg-image{
+    background: url('../images/banner.jpg');
+    height: 15em;
+    display: flex;
+    text-align: center;
+    color: #fff;
+ }
+
+ .articles .article-list{
+    width: 70%;
+    /* display: inline; */
+ }
+ .articles .ads-section{
+    width: 30%;
+ }
+
+ .articles .article-list .item{
+    width: 20%;
+    padding: 10px;
+ }
+ .articles .article-list .item img{
+    width: 100%;
+ }
+ .articles .article-list .item .rating .checked{
+    color: orange;
+ }
+ 
+
+
+ /* ****************** footer section ****************************** */
+
+ section.footer{
     background-color: #ececec;
     margin-top: 4%;
 }
@@ -62,8 +94,31 @@ footer .proc{
     width: 25%;
     padding-left: 2%;
 }
+footer ul{
+    list-style-type: none;
+    padding-inline-start: 2px;
+}
+footer ul li a{
+    color: #0f0f0f;
+    text-decoration: none;
+    text-align: start;
+}
+footer ul li i{
+    margin-right: 0.8em;
+    color: #98D3DF;
+}
 footer .proc-logo img{
     width: 100%;
+}
+
+.footer .copy{
+    padding: 1% 0;
+    text-align: center;
+    background-color: #0f0f0f;
+}
+.footer .copy span{
+    color: #fff;
+    font-weight: 500;
 }
 
 /* Styles for tablet screens */
