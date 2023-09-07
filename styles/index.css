@@ -47,8 +47,8 @@ orange   #EC9131
     font-size: 0.79rem;
  }
 
- /* **************** articles****************************** */
- .articles .banner .bg-image{
+ /* **************** hostels****************************** */
+ .hostels .banner .bg-image{
     background: url('../images/banner.jpg');
     height: 15em;
     display: flex;
@@ -56,23 +56,34 @@ orange   #EC9131
     color: #fff;
  }
 
- .articles .article-list{
+ .hostels .hostel-list{
     width: 70%;
     /* display: inline; */
  }
- .articles .ads-section{
+ .hostels .ads-section{
     width: 30%;
  }
+ .hostels .hostel-list .search{
+    margin: 2% 0;
+ }
 
- .articles .article-list .item{
-    width: 20%;
+ .hostels .hostel-list .item{
+    width: 25%;
     padding: 10px;
  }
- .articles .article-list .item img{
+ .hostels .hostel-list .item img{
     width: 100%;
  }
- .articles .article-list .item .rating .checked{
+ .hostels .hostel-list .desc{
+    font-size: 0.79rem;
+ }
+
+ .hostels .hostel-list .item .rating .checked{
     color: orange;
+ }
+
+ .hostels .ads-area{
+    width: 30%;
  }
  
 
