@@ -3,10 +3,6 @@
 blue      #98D3DF
 orange   #EC9131 
 */
-
-
-
-
 .about,
 .services {
     width: 100%;
@@ -46,6 +42,40 @@ orange   #EC9131
 .content p{
     font-size: 0.79rem;
  }
+ /* ********** service cards******************************* */
+ .service-card{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+ }
+
+ .service-card .title{
+    display: flex;
+    margin: 1em 0;    
+ }
+
+ .service-card .title .icon{
+    height: 20px;
+    width: 20px;
+    background-color: #98D3DF;
+    border-radius: 50%;
+    color: #EC9131;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+.service-card .title h5{
+    font-size: 16px;
+    padding-top: 5px;
+
+}
+
+.service-card .desc{
+    margin:0 10px;
+}
+
 
  /* **************** hostels****************************** */
  .hostels .banner .bg-image{
@@ -94,7 +124,9 @@ orange   #EC9131
     background-color: #ececec;
     margin-top: 4%;
 }
-
+footer{
+    display: flex;
+}
 footer .proc-logo{
     margin-top: 2rem;
     width: 28%;
@@ -119,7 +151,7 @@ footer ul li i{
     color: #98D3DF;
 }
 footer .proc-logo img{
-    width: 100%;
+    width: 70%;
 }
 
 .footer .copy{
@@ -134,10 +166,14 @@ footer .proc-logo img{
 
 /* Styles for tablet screens */
 @media (max-width: 1023px) and (min-width: 768px) {
-    
-footer .proc,
-footer .proc-logo {
-    width: 50%;
+footer{
+    display: block;
+}
+footer .proc-logo{
+    width: 80%;
+}
+footer .proc{
+    width: 100%;
 }
 
     
@@ -145,16 +181,21 @@ footer .proc-logo {
   
 /* Styles for mobile screens */
 @media (max-width: 767px) {
-
+    footer{
+        display: block;
+    }
+    footer .proc,
+footer .proc-logo {
+    width: 100%;
+}
     .about .image{
         display: none;
     }
-    footer .proc,
-    footer .proc-logo {
-    width: 50%;
-}
+
 
 }
+
+
 
 
 
