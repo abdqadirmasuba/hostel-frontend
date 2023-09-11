@@ -93,9 +93,11 @@ orange   #EC9131
  .hostels .ads-section{
     width: 30%;
  }
- .hostels .hostel-list .search{
-    margin: 2% 0;
+ .hostels .hostel-list .search input{
+    border: 1px solid #ddd;
+
  }
+ 
 
  .hostels .hostel-list .item{
     width: 25%;
@@ -115,7 +117,79 @@ orange   #EC9131
  .hostels .ads-area{
     width: 30%;
  }
- 
+ /* ********************* articles ******************************** */
+ .articles .article-list{
+    width: 75%;
+    margin: 3% 0;
+ }
+
+ .articles .article{
+    width: 31%;
+    margin: 1%;
+    border: 1px solid #ddd;
+ }
+ .articles .article .header{
+    padding: 10px;
+ }
+
+ .articles .article .header .categories div{
+    display: inline;
+    background-color: #98D3DF;
+    padding: 2px 4px;
+    font-size: 13px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;
+ }
+
+ .articles .article .body{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px;
+
+ }
+
+ .articles .article .footer {
+    border-top: 1px solid #dedede;
+    padding: 10px; 
+ }
+ .articles .article .footer div span{
+    font-style: italic;
+
+ }
+ .articles .article .footer .ack{
+    font-size: 13px;    
+    display: flex;  
+
+ }
+ .articles .article .footer button{
+    font-weight: 600;
+    outline: none;
+    border: 0;
+    background-color: unset;
+    margin-left: auto;
+ } 
+
+ .articles .footer .likes{
+    display: inline-flex;
+    font-size: 15px;
+    padding-right: 10px;
+
+    
+ }
+ .articles .footer .likes .num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    width: 15px;
+    font-size: 13px;
+    border-radius: 50%;
+    background-color: #98D3DF;
+    color: #fff;
+    margin-left: 5px;
+    margin-top: 6px;
+ }
 
 
  /* ****************** footer section ****************************** */
