@@ -190,6 +190,15 @@ orange   #EC9131
     margin-left: 5px;
     margin-top: 6px;
  }
+ .article-content{
+    display: flex;
+    margin-top: 20px;
+ }
+ .article-content>div{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
 
  /* ****************** footer section ****************************** */
